@@ -13,15 +13,16 @@
 
 Summary of the `osmo-test-5` endpoints:
 
-| Service     | Url                                                             |
-|-------------|-----------------------------------------------------------------|
-| Public RPC  | <https://rpc.osmotest5.osmosis.zone>                            |
-| Public LCD  | <https://grpc.osmotest5.osmosis.zone>                           |
-| Public gRPC | <https://lcd.osmotest5.osmosis.zone>                            |
-| Seed Node   | `bb197876fd952d245ef6377e3651c157e3d7ed81@157.245.26.231:26656,7c2b9e76be5c2142c76b429d9c29e902599ceb44@157.245.21.183:26656` |
-| Explorer    | <https://explorer.osmotest5.osmosis.zone>                       |
-| Faucet      | <https://faucet.osmotest5.osmosis.zone>                         |
-| Snapshots   | <https://snapshots.osmotest5.osmosis.zone>                      |
+| Service     | Url                                                                                                                                   |
+|-------------|---------------------------------------------------------------------------------------------------------------------------------------|
+| Landing     | <https://osmotest5.osmosis.zone>                                                                                                      |
+| Public RPC  | <https://rpc.osmotest5.osmosis.zone>                                                                                                  |
+| Public LCD  | <https://lcd.osmotest5.osmosis.zone>                                                                                                  |
+| Public gRPC | <https://grpc.osmotest5.osmosis.zone>                                                                                                 |
+| Seed Nodes  | `bb197876fd952d245ef6377e3651c157e3d7ed81@157.245.26.231:26656` <br/> `7c2b9e76be5c2142c76b429d9c29e902599ceb44@157.245.21.183:26656` |
+| Explorer    | <https://explorer.osmotest5.osmosis.zone>                                                                                             |
+| Faucet      | <https://faucet.osmotest5.osmosis.zone>                                                                                               |
+| Snapshots   | <https://snapshots.osmotest5.osmosis.zone>                                                                                            |
 
 ### 🟣 Public Nodes
 
@@ -33,12 +34,11 @@ Summary of the `osmo-test-5` endpoints:
 
 ### 🌱 Seed
 
-| Node | ID                                                              |
-|------|-----------------------------------------------------------------|
-| Seed | `bb197876fd952d245ef6377e3651c157e3d7ed81@157.245.26.231:26656,7c2b9e76be5c2142c76b429d9c29e902599ceb44@157.245.21.183:26656` |
+| Node  | ID                                                                                                                            |
+|-------|-------------------------------------------------------------------------------------------------------------------------------|
+| Seeds | `bb197876fd952d245ef6377e3651c157e3d7ed81@157.245.26.231:26656,7c2b9e76be5c2142c76b429d9c29e902599ceb44@157.245.21.183:26656` |
 
 Add the Node ID in your `p2p.seeds` section of you `config.toml`:
-
 
 ```toml
 #######################################################
