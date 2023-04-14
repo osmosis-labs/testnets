@@ -16,7 +16,7 @@
 
 ### 🟪 osmo-test-4
 
-| Chain ID         | `osmo-test-5`                                                                   |
+| Chain ID         | `osmo-test-4`                                                                   |
 |------------------|---------------------------------------------------------------------------------|
 | Osmosisd version | `v15.0.0-rc4`                                                                   |
 | Genesis          | <https://github.com/osmosis-labs/networks/raw/main/osmo-test-4/genesis.tar.bz2> |
