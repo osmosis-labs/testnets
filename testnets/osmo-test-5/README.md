@@ -207,6 +207,6 @@ The following modifications were made to the app state parameters:
 - `voting_params.expedited_voting_period` set to 180s
 - `incentives.lockable_durations` set to `[ "3600s", "10800s", "25200s", "60s" ]`
 - `poolincentives.lockable_durations` set to `[ "3600s", "10800s", "25200s", "60s" ]`
-- `staking.unbonding_time` set to `300s`
+- `staking.unbonding_time` set to `86400s`
 - `tokenfactory.denom_creation_fee` set to `10000000uosmo`
 - `wasm.instantiate_default_permission` set to `Everybody` (yay! Go CosmWasm!)
