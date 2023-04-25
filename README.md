@@ -10,7 +10,7 @@
 | Chain ID                              | Type      | Status | Version       | Notes           |
 |---------------------------------------|-----------|--------|---------------|-----------------|
 | [osmo-test-4](./testnets/osmo-test-4) | *testnet* | Active | `v15.0.0-rc4` | Current testnet |
-| [osmo-test-5](./testnets/osmo-test-5) | *testnet* | Beta   | `v15.0.0`     | Future testnet  |
+| [osmo-test-5](./testnets/osmo-test-5) | *testnet* | Beta   | `v15.1.0`     | Future testnet  |
 
 ## Testnets
 
@@ -34,7 +34,7 @@ Join the testnet following the instructions on the [osmo-test-4 page](./testnets
 
 | Chain ID         | `osmo-test-5`                                        |
 |------------------|------------------------------------------------------|
-| Osmosisd version | `v15.0.0`                                            |
+| Osmosisd version | `v15.1.0`                                            |
 | Genesis          | <http://genesis.osmotest5.osmosis.zone/genesis.json> |
 | RPC              | <https://rpc.osmotest5.osmosis.zone>                 |
 | gRPC             | <https://grpc.osmotest5.osmosis.zone>                |
