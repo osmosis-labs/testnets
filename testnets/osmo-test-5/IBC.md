@@ -53,7 +53,7 @@ These public endpoints are listed here solely for the purpose of simplifying dev
 | Cosmos-hub | `thetha-testnet-001`      | <https://rpc.sentry-01.theta-testnet.polypore.xyz:443> | <https://rest.sentry-01.theta-testnet.polypore.xyz:443> |
 | Juno       | `uni-6`                   | <https://uni-rpc.reece.sh:443>                         | <https://uni-api.reece.sh:443>                          |
 | Mars       | `ares-1`                  | <https://testnet-rpc.marsprotocol.io>                  | <https://testnet-rest.marsprotocol.io>                  |
-| Axelar     | `axelar-testnet-lisbon-3` | <https://rpc-axelar-testnet.imperator.co:443>          | <https://lcd-axelar-testnet.imperator.co >              |
+| Axelar     | `axelar-testnet-lisbon-3` | <https://rpc-axelar-testnet.imperator.co:443>          | <https://lcd-axelar-testnet.imperator.co>               |
 | Akash      | `sandbox`                 | <http://rpc.sandbox.ny.aksh.pw:26657>                  | <http://api.sandbox.ny.aksh.pw:1317>                    |
 | Noble      | `grand-1`                 | <https://rpc.testnet.noble.strange.love:443>           | <https://api.testnet.noble.strange.love:443>            |
 
