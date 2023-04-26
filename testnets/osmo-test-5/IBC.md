@@ -2,15 +2,15 @@
 
 ## 📺 IBC Channels
 
-| src-chain-id  | dst-chain-id              | src-channel | dst-channel    | Note               |
-|---------------|---------------------------|-------------|----------------|--------------------|
-| `osmo-test-5` | `thetha-testnet-001`      | `channel-0` | `channel-2500` | Cosmos-Hub Testnet |
-| `osmo-test-5` | `uni-6`                   | `channel-1` | `channel-190`  | Juno Testnet       |
-| `osmo-test-5` | `ares-1`                  | `channel-2` | `channel-12`   | Mars Testnet       |
-| `osmo-test-5` | `axelar-testnet-lisbon-3` | `channel-3` | `channel-227`  | Axelar testnet     |
-| `osmo-test-5` | `sandbox`                 | `channel-4` | `channel-2`    | Akash testnet      |
-| `osmo-test-5` | `dydxprotocol-testnet`    | `channel-5` | `channel-5`    | Dydx testnet       |
-| `osmo-test-5` | `grand-1`                 | `channel-6` | `channel-6`    | Noble Testnet      |
+| src-chain-id  | dst-chain-id              | src-channel  | dst-channel    | Note               |
+|---------------|---------------------------|--------------|----------------|--------------------|
+| `osmo-test-5` | `thetha-testnet-001`      | `channel-12` | `channel-2500` | Cosmos-Hub Testnet |
+| `osmo-test-5` | `uni-6`                   | `channel-1`  | `channel-190`  | Juno Testnet       |
+| `osmo-test-5` | `ares-1`                  | `channel-2`  | `channel-12`   | Mars Testnet       |
+| `osmo-test-5` | `axelar-testnet-lisbon-3` | `channel-3`  | `channel-227`  | Axelar testnet     |
+| `osmo-test-5` | `sandbox`                 | `channel-4`  | `channel-2`    | Akash testnet      |
+| `osmo-test-5` | `dydxprotocol-testnet`    | `channel-7`  | `channel-7`    | Dydx testnet       |
+| `osmo-test-5` | `grand-1`                 | `channel-6`  | `channel-6`    | Noble Testnet      |
 
 ## 🫰 IBC Assets
 
