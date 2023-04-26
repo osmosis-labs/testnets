@@ -13,16 +13,28 @@
 
 Summary of the `osmo-test-5` endpoints:
 
-| Service     | Url                                                                                                                                   |
-|-------------|---------------------------------------------------------------------------------------------------------------------------------------|
-| Landing     | <https://osmotest5.osmosis.zone>                                                                                                      |
-| Public RPC  | <https://rpc.osmotest5.osmosis.zone>                                                                                                  |
-| Public LCD  | <https://lcd.osmotest5.osmosis.zone>                                                                                                  |
-| Public gRPC | <https://grpc.osmotest5.osmosis.zone>                                                                                                 |
-| Seed Nodes  | `bb197876fd952d245ef6377e3651c157e3d7ed81@157.245.26.231:26656` <br/> `7c2b9e76be5c2142c76b429d9c29e902599ceb44@157.245.21.183:26656` |
-| Explorer    | <https://explorer.osmotest5.osmosis.zone>                                                                                             |
-| Faucet      | <https://faucet.osmotest5.osmosis.zone>                                                                                               |
-| Snapshots   | <https://snapshots.osmotest5.osmosis.zone>                                                                                            |
+| Service             | Url                                                                                                                                                                                                         |
+|---------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Landing             | <https://osmotest5.osmosis.zone>                                                                                                                                                                            |
+| Public RPC          | <https://rpc.osmotest5.osmosis.zone>                                                                                                                                                                        |
+| Public LCD          | <https://lcd.osmotest5.osmosis.zone>                                                                                                                                                                        |
+| Public gRPC         | <https://grpc.osmotest5.osmosis.zone>                                                                                                                                                                       |
+| Osmosis Seed Nodes  | `a5f81c035ff4f985d5e7c940c7c3b846389b7374@167.235.115.14:26656` <br/> `bb197876fd952d245ef6377e3651c157e3d7ed81@157.245.26.231:26656` <br/> `7c2b9e76be5c2142c76b429d9c29e902599ceb44@157.245.21.183:26656` |
+| External Seed Nodes | `f440c4980357d8b56db87ddd50f06bd551f1319a@5.78.98.19:26656` <br/> `ade4d8bc8cbe014af6ebdf3cb7b1e9ad36f412c0@testnet-seeds.polkachu.com:12556`                                                               |
+| Explorer            | <https://explorer.osmotest5.osmosis.zone>                                                                                                                                                                   |
+| Faucet              | <https://faucet.osmotest5.osmosis.zone>                                                                                                                                                                     |
+| Snapshots           | <https://snapshots.osmotest5.osmosis.zone>                                                                                                                                                                  |
+
+### 📚 External Resources
+ 
+The following resources were provided by validators and integrators, whom we would like to thank for their contributions to Osmosis:
+
+| Resource             | Url                                        |
+|----------------------|--------------------------------------------|
+| Polkachu Testnet Lab | https://www.polkachu.com/testnets/osmosis  |
+| Quicksync            | https://quicksync.io/networks/osmosis.html |
+
+If you want to be listed in this table, contribute by opening a PR and suggesting a new resource.
 
 ### 🟣 Public Nodes
 
@@ -34,9 +46,10 @@ Summary of the `osmo-test-5` endpoints:
 
 ### 🌱 Seed
 
-| Node  | ID                                                                                                                            |
-|-------|-------------------------------------------------------------------------------------------------------------------------------|
-| Seeds | `bb197876fd952d245ef6377e3651c157e3d7ed81@157.245.26.231:26656,7c2b9e76be5c2142c76b429d9c29e902599ceb44@157.245.21.183:26656` |
+| Node          | ID                                                                                                                                                                                                          |
+|---------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Osmosis Seed  | `a5f81c035ff4f985d5e7c940c7c3b846389b7374@167.235.115.14:26656` <br/> `bb197876fd952d245ef6377e3651c157e3d7ed81@157.245.26.231:26656` <br/> `7c2b9e76be5c2142c76b429d9c29e902599ceb44@157.245.21.183:26656` |
+| External Seed | `f440c4980357d8b56db87ddd50f06bd551f1319a@5.78.98.19:26656` <br/> `ade4d8bc8cbe014af6ebdf3cb7b1e9ad36f412c0@testnet-seeds.polkachu.com:12556`                                                               |
 
 Add the Node ID in your `p2p.seeds` section of you `config.toml`:
 
@@ -49,7 +62,7 @@ Add the Node ID in your `p2p.seeds` section of you `config.toml`:
 # ...
 
 # Comma separated list of seed nodes to connect to
-seeds = "bb197876fd952d245ef6377e3651c157e3d7ed81@157.245.26.231:26656,7c2b9e76be5c2142c76b429d9c29e902599ceb44@157.245.21.183:26656"
+seeds = "7c2b9e76be5c2142c76b429d9c29e902599ceb44@157.245.21.183:26656,bb197876fd952d245ef6377e3651c157e3d7ed81@157.245.26.231:26656,7c2b9e76be5c2142c76b429d9c29e902599ceb44@157.245.21.183:26656,f440c4980357d8b56db87ddd50f06bd551f1319a@5.78.98.19:26656,ade4d8bc8cbe014af6ebdf3cb7b1e9ad36f412c0@testnet-seeds.polkachu.com:12556"
 ```
 
 ### 🚰 Faucet
