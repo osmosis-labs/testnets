@@ -82,6 +82,12 @@ SNAPSHOT_URL=$(curl -sL https://snapshots.osmotest5.osmosis.zone/latest)
 wget -q -O - $SNAPSHOT_URL | lz4 -d | tar -C $HOME/.osmosisd/ -xvf -
 ```
 
+#### Latest Archive Snapshot
+
+| Blocks     | Url                                                                                                             |
+|------------|-----------------------------------------------------------------------------------------------------------------|
+| 1 - 384811 | http://osmosis-snapshots-testnet.fra1.digitaloceanspaces.com/snapshots-archive/osmotest5_archive_384811.tar.lz4 |
+
 ### 🗺️ Explorer
 
 The `osmo-test-5` testnet explorer is available at <https://explorer.osmotest5.osmosis.zone>
