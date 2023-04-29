@@ -9,6 +9,8 @@
 | Genesis           | <https://genesis.osmotest5.osmosis.zone/genesis.json>              |
 | Genesis SHA256SUM | `8f84b50c0ad65582c9c52126cd33443c9f2541436ea4c525106ed9b58f7c9ef9` |
 
+> Add `osmo-test-5` to keplr: <https://keplr.osmotest5.osmosis.zone/>
+
 ## Endpoints
 
 Summary of the `osmo-test-5` endpoints:

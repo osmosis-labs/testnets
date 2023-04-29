@@ -59,14 +59,7 @@ These public endpoints are listed here solely for the purpose of simplifying dev
 
 ### 🇰 Add chains to keplr wallet 
 
-| Chain      | Chain ID                  | Add to keplr                                                                       |
-|------------|---------------------------|------------------------------------------------------------------------------------|
-| Osmosis    | `osmo-test-5`             | <https://keplr.osmotest5.osmosis.zone>                                             |
-| Cosmos-hub | `thetha-testnet-001`      | [jsfiddle](https://jsfiddle.net/kht96uvo/1/)                                       |
-| Akash      | `sandbox`                 | <>                                                                                 |
-| Noble      | `grand-1`                 | <>                                                                                 |
-| Mars       | `uni-6`                   | <https://faucet.marsprotocol.io/#:~:text=CONNECT-,WALLET,-%C2%A9%C2%A02023%20MARS> |
-| Axelar     | `axelar-testnet-lisbon-3` | <>                                                                                 |
+You can add the osmo-test-5 chain to your Keplr wallet, as well as all other connected chains, at: https://keplr.osmotest5.osmosis.zone/
 
 ## 📚 Resources
 
