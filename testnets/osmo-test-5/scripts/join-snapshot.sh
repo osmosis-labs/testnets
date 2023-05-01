@@ -15,7 +15,7 @@ if [ -z $MONIKER ]; then
 fi
 
 OSMOSIS_HOME=$HOME/.osmosisd
-OSMOSIS_VERSION=15.1.0
+OSMOSIS_VERSION=15.1.0-testnet
 GOLANG_VERSION=1.19
 
 SEEDS="bb197876fd952d245ef6377e3651c157e3d7ed81@157.245.26.231:26656,7c2b9e76be5c2142c76b429d9c29e902599ceb44@157.245.21.183:26656"
@@ -110,7 +110,8 @@ printf "${GREEN}Starting node configuration ${CLEAN}\n"
 mkdir -p $OSMOSIS_HOME
 
 # Download the binary
-sudo wget -q https://github.com/osmosis-labs/osmosis/releases/download/v$OSMOSIS_VERSION/osmosisd-$OSMOSIS_VERSION-linux-$ARCH -O /usr/local/bin/osmosisd
+# sudo wget -q https://github.com/osmosis-labs/osmosis/releases/download/v$OSMOSIS_VERSION/osmosisd-$OSMOSIS_VERSION-linux-$ARCH -O /usr/local/bin/osmosisd
+sudo wget -q https://osmosis-snapshots-testnet.fra1.cdn.digitaloceanspaces.com/binaries/osmosisd-$OSMOSIS_VERSION-linux-$ARCH -O /usr/local/bin/osmosisd
 sudo chmod +x /usr/local/bin/osmosisd
 
 if [ "$INSTALLATION" == "cosmovisor" ]; then

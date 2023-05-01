@@ -9,7 +9,7 @@ CLEAN='\033[0m'
 PACKAGES="tar jq sed wget curl"
 
 OSMOSIS_HOME=$HOME/.osmosisd
-OSMOSIS_VERSION=15.1.0
+OSMOSIS_VERSION=15.1.0-testnet
 CHAIN_ID=osmo-test-5
 
 RPC_URL="https://rpc.osmotest5.osmosis.zone"
@@ -46,7 +46,8 @@ done
 sudo wget -q https://github.com/TomWright/dasel/releases/download/v1.20.0/dasel_linux_$ARCH -O /usr/local/bin/dasel
 sudo chmod +x /usr/local/bin/dasel
 
-sudo wget -q https://github.com/osmosis-labs/osmosis/releases/download/v$OSMOSIS_VERSION/osmosisd-$OSMOSIS_VERSION-linux-$ARCH -O /usr/local/bin/osmosisd
+# sudo wget -q https://github.com/osmosis-labs/osmosis/releases/download/v$OSMOSIS_VERSION/osmosisd-$OSMOSIS_VERSION-linux-$ARCH -O /usr/local/bin/osmosisd
+sudo wget -q https://snapshots-s3.osmotest5.osmosis.zone/binaries/osmosisd-$OSMOSIS_VERSION-testnet-linux-$ARCH -O /usr/local/bin/osmosisd
 sudo chmod +x /usr/local/bin/osmosisd
 
 printf "${GREEN}[INFO]Dependencies installed... ${CLEAN}\n"

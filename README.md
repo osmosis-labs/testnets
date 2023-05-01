@@ -7,10 +7,10 @@
     <br>
 </div>
 
-| Chain ID                              | Type      | Status | Version       | Notes           |
-|---------------------------------------|-----------|--------|---------------|-----------------|
-| [osmo-test-4](./testnets/osmo-test-4) | *testnet* | Active | `v15.0.0-rc4` | Current testnet |
-| [osmo-test-5](./testnets/osmo-test-5) | *testnet* | Beta   | `v15.1.0`     | Future testnet  |
+| Chain ID                              | Type      | Status     | Version           | Notes            |
+|---------------------------------------|-----------|------------|-------------------|------------------|
+| [osmo-test-4](./testnets/osmo-test-4) | *testnet* | Deprecated | `v15.0.0-rc4`     | Previous testnet |
+| [osmo-test-5](./testnets/osmo-test-5) | *testnet* | Active     | `v15.1.0-testnet` | Current testnet  |
 
 ## Testnets
 
@@ -34,7 +34,7 @@ Join the testnet following the instructions on the [osmo-test-4 page](./testnets
 
 | Chain ID         | `osmo-test-5`                                        |
 |------------------|------------------------------------------------------|
-| Osmosisd version | `v15.1.0`                                            |
+| Osmosisd version | `v15.1.0-testnet`                                    |
 | Genesis          | <http://genesis.osmotest5.osmosis.zone/genesis.json> |
 | RPC              | <https://rpc.osmotest5.osmosis.zone>                 |
 | gRPC             | <https://grpc.osmotest5.osmosis.zone>                |
@@ -42,7 +42,7 @@ Join the testnet following the instructions on the [osmo-test-4 page](./testnets
 | Faucet           | <https://faucet.osmotest5.osmosis.zone>              |
 | Explorer         | <https://explorer.osmotest5.osmosis.zone>            |
 | Snapshots        | <https://snapshots.osmotest5.osmosis.zone>           |
-| Frontend         | <https://app.osmotest5.osmosis.zone>  (WIP 🛠️)        |
+| Frontend         | <https://app.osmotest5.osmosis.zone>  (WIP 🛠️)       |
 
 #### 🧪 Join the testnet 
 

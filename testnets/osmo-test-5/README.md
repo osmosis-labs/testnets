@@ -5,7 +5,7 @@
 | Chain ID          | `osmo-test-5`                                                      |
 |-------------------|--------------------------------------------------------------------|
 | Launch Date       | 6th Apr, 2023                                                      |
-| Osmosisd version  | `v15.1.0`                                                          |
+| Osmosisd version  | `v15.1.0-testnet`                                                  |
 | Genesis           | <https://genesis.osmotest5.osmosis.zone/genesis.json>              |
 | Genesis SHA256SUM | `8f84b50c0ad65582c9c52126cd33443c9f2541436ea4c525106ed9b58f7c9ef9` |
 
