@@ -14,7 +14,8 @@ CHAIN_ID=osmo-test-5
 
 RPC_URL="https://rpc.osmotest5.osmosis.zone"
 RPC_SERVERS="https://rpc.osmotest5.osmosis.zone:443,https://rpc.osmotest5.osmosis.zone:443"
-SEEDS="bb197876fd952d245ef6377e3651c157e3d7ed81@157.245.26.231:26656,7c2b9e76be5c2142c76b429d9c29e902599ceb44@157.245.21.183:26656"
+SEEDS="$(curl -s -L https://snapshots.osmotest5.osmosis.zone/seeds)"
+ADDRBOOK_URL=https://addrbook.osmotest5.osmosis.zone/
 GENESIS_URL=https://genesis.osmotest5.osmosis.zone/genesis.json
 
 if uname -m | grep 64 | grep arm >/dev/null; then
@@ -80,6 +81,8 @@ dasel put string -f $OSMOSIS_HOME/config/config.toml '.statesync.trust_hash' $TR
 dasel put string -f $OSMOSIS_HOME/config/config.toml '.statesync.rpc_servers' $RPC_SERVERS
 
 dasel put string -f $OSMOSIS_HOME/config/config.toml '.p2p.seeds' $SEEDS
+
+wget -q $ADDRBOOK_URL -O $OSMOSIS_HOME/config/addrbook.json
 
 printf "${GREEN}[INFO]Starting node... ${CLEAN}\n"
 

@@ -18,11 +18,12 @@ OSMOSIS_HOME=$HOME/.osmosisd
 OSMOSIS_VERSION=15.1.0-testnet
 GOLANG_VERSION=1.19
 
-SEEDS="bb197876fd952d245ef6377e3651c157e3d7ed81@157.245.26.231:26656,7c2b9e76be5c2142c76b429d9c29e902599ceb44@157.245.21.183:26656"
+SEEDS="$(curl -s -L https://snapshots.osmotest5.osmosis.zone/seeds)"
+ADDRBOOK_URL=https://addrbook.osmotest5.osmosis.zone/
+
 
 GENESIS_URL=https://genesis.osmotest5.osmosis.zone/genesis.json
 SNAPSHOT_URL=$(curl -s https://osmosis-snapshots-testnet.fra1.cdn.digitaloceanspaces.com/snapshots/latest)
-
 
 WAIT=10
 
@@ -182,6 +183,8 @@ dasel put string -f $OSMOSIS_HOME/config/config.toml '.rpc.laddr' "tcp://0.0.0.0
 
 # Download genesis
 wget -q $GENESIS_URL -O $OSMOSIS_HOME/config/genesis.json
+
+wget -q $ADDRBOOK_URL -O $OSMOSIS_HOME/config/addrbook.json
 
 # Download snapshot
 wget -q -O - $SNAPSHOT_URL | lz4 -d | tar -C $OSMOSIS_HOME/ -xvf -
