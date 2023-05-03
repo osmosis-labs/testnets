@@ -86,9 +86,9 @@ wget -q -O - $SNAPSHOT_URL | lz4 -d | tar -C $HOME/.osmosisd/ -xvf -
 
 #### Latest Archive Snapshot
 
-| Blocks     | Url                                                                                                             |
-|------------|-----------------------------------------------------------------------------------------------------------------|
-| 1 - 384811 | http://osmosis-snapshots-testnet.fra1.digitaloceanspaces.com/snapshots-archive/osmotest5_archive_384811.tar.lz4 |
+| Blocks     | Url                                                                                                                           |
+|------------|-------------------------------------------------------------------------------------------------------------------------------|
+| 1 - 466372 | http://osmosis-snapshots-testnet.fra1.digitaloceanspaces.com/snapshots-archive/osmotest5-snapshot-202305031411-466372.tar.lz4 |
 
 ### 🗺️ Explorer
 
