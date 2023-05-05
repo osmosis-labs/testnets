@@ -9,8 +9,8 @@
 
 | Chain ID                              | Type      | Status     | Version           | Notes            |
 |---------------------------------------|-----------|------------|-------------------|------------------|
-| [osmo-test-4](./testnets/osmo-test-4) | *testnet* | Deprecated | `v15.0.0-rc4`     | Previous testnet |
-| [osmo-test-5](./testnets/osmo-test-5) | *testnet* | Active     | `v15.1.0-testnet` | Current testnet  |
+| [osmo-test-4](./testnets/osmo-test-4) | `testnet` | Deprecated | `v15.0.0-rc4`     | Previous testnet |
+| [osmo-test-5](./testnets/osmo-test-5) | `testnet` | **Active** | `v15.1.0-testnet` | Current testnet  |
 
 ## Testnets
 
