@@ -3,16 +3,22 @@
     <h1>   
         🧪 Osmosis Testnets
     </h1>
-    <p> This repository contains information on Osmosis public testnets </p>
+    <p> This repository contains information on Osmosis public testnets and devnets </p>
     <br>
 </div>
 
-| Chain ID                              | Type      | Status     | Version           | Notes            |
-|---------------------------------------|-----------|------------|-------------------|------------------|
-| [osmo-test-4](./testnets/osmo-test-4) | `testnet` | Deprecated | `v15.0.0-rc4`     | Previous testnet |
-| [osmo-test-5](./testnets/osmo-test-5) | `testnet` | **Active** | `v15.1.0-testnet` | Current testnet  |
+| Chain ID                              | Type      | Status           | Version           | Notes                                        |
+|---------------------------------------|-----------|------------------|-------------------|----------------------------------------------|
+| [osmo-test-4](./testnets/osmo-test-4) | `testnet` | ⚠️ **Deprecated** | `v15.0.0-rc4`     | Previous testnet                             |
+| [osmo-test-5](./testnets/osmo-test-5) | `testnet` | **Active**       | `v15.1.0-testnet` | Current testnet                              |
+| [edgenet](./devnets/edgenet)          | `devnet`  | **Beta**         | `v15.x`           | Daily devnet based of `osmosis/main` branch  |
+| [devnet](./devnets/devnet)            | `devnet`  | **Beta**         | `main`            | Daily devnet based of `osmosis/v15.x` branch |
 
 ## Testnets
+
+Testnets are a type of blockchain used exclusively for testing purposes. They function as a sandbox environment, allowing developers to test new code and functionalities without worrying about affecting the live blockchain (mainnet). They are persistent environments, meaning that they remain active for extended periods of time.
+
+Testnets come with a range of integrated services, including relayers to other testnets, frontends, explorers, and snapshot services. 
 
 ### 🟪 osmo-test-4
 
@@ -48,6 +54,40 @@ Join the testnet following the instructions on the [osmo-test-4 page](./testnets
 
 Join the testnet following the instructions on the [osmo-test-5 page](./testnets/osmo-test-5/README.md).
 
+## Devnets
+
+Devnets, short for development networks, are also used for testing new functionalities and code. However, unlike testnets, devnets are temporary environments. They are essentially forks of the mainnet, created to mimic the live blockchain's conditions as closely as possible.
+
+Devnets are ephemeral, which means they are deleted and recreated every 24 hours. This ensures that the testing environment closely mirrors the current state of the mainnet. Devnets are minimal environments, consisting only of a validator. Unlike testnets, devnets do not feature frontends or relayers to other testnets. 
+
+### 🟨 edgenet
+
+| Chain ID         | `edgenet`                                                                 |
+|------------------|---------------------------------------------------------------------------|
+| Osmosisd version | `osmosis/main` branch                                                     |
+| Genesis          | <https://osmosis-edgenet.sfo3.digitaloceanspaces.com/genesis.json>        |
+| Starting Height  | <https://osmosis-edgenet.sfo3.digitaloceanspaces.com/height>              |
+| RPC              | <https://rpc.edgenet.osmosis.zone>                                        |
+| REST             | <https://lcd.edgenet.osmosis.zone>                                        |
+| gRPC             | `grpc.edgenet.osmosis.zone:30090`                                         |
+| websocket        | `wss://rpc.edgenet.osmosis.zone:443/websocket`                            |
+| Faucet           | <https://faucet.edgenet.osmosis.zone>                                     |
+| Seed Node        | `ad717b5090f2c8370c023e7925eabe3cf73f3014@p2p.edgenet.osmosis.zone:30056` |
+
+### 🟨 devnet
+
+| Chain ID         | `devnet`                                                                 |
+|------------------|--------------------------------------------------------------------------|
+| Osmosisd version | `osmosis/v15.x` branch                                                   |
+| Genesis          | <https://osmosis-devnet.sfo3.digitaloceanspaces.com/genesis.json>        |
+| Starting Height  | <https://osmosis-devnet.sfo3.digitaloceanspaces.com/height>              |
+| RPC              | <https://rpc.devnet.osmosis.zone>                                        |
+| REST             | <https://lcd.devnet.osmosis.zone>                                        |
+| gRPC             | `grpc.devnet.osmosis.zone:30090`                                         |
+| websocket        | `wss://rpc.devnet.osmosis.zone:443/websocket`                            |
+| Faucet           | <https://faucet.devnet.osmosis.zone>                                     |
+| Seed Node        | `5943e04edc5397018803f73e47f826be016010e1@p2p.devnet.osmosis.zone:30056` |
+
 ## 🆘 Issues and support
 
 If you encounter any issues while joining the Osmosis network or have questions about the process, please don't hesitate to reach out for support.
@@ -75,3 +115,14 @@ You can request testnet tokens for the `osmo-test-5` testnet from the faucet ava
 **3) I am an integrator on the `osmo-test-5` testnet. How can I request more funds?**
 
 If you are an integrator needing additional testnet tokens for development or testing purposes, you can request them via [this form](https://form-integrators.osmotest5.osmosis.zone). Please provide detailed information about your project and the number of tokens you require, and our team will review your request as soon as possible.
+
+**4) What are the differences between testnets and devnets?**
+
+| **Features** | **Testnets**             | **Devnets**                                       |
+|--------------|--------------------------|---------------------------------------------------|
+| Persistent   | ✅                        | ❌ they are deleted and recreated every 24 hours. |
+| State        | Maintains its own state. | Forks of the mainnet, mimicking its state.         |
+| Faucet       | ✅                        | ✅                                                |
+| Explorer     | ✅                        | ❌                                                |
+| Frontend     | ✅                        | ❌                                                |
+| Relayers     | ✅                        | ❌                                                |
