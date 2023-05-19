@@ -9,8 +9,8 @@
 
 | Chain ID                              | Type      | Status           | Version           | Notes                                        |
 |---------------------------------------|-----------|------------------|-------------------|----------------------------------------------|
-| [osmo-test-4](./testnets/osmo-test-4) | `testnet` | ⚠️ **Deprecated** | `v15.0.0-rc4`     | Previous testnet                             |
 | [osmo-test-5](./testnets/osmo-test-5) | `testnet` | **Active**       | `v15.1.0-testnet` | Current testnet                              |
+| [osmo-test-4](./testnets/osmo-test-4) | `testnet` | ⚠️ **Deprecated** | `v15.0.0-rc4`     | Previous testnet                             |
 | [edgenet](./devnets/edgenet)          | `devnet`  | **Beta**         | `v15.x`           | Daily devnet based of `osmosis/main` branch  |
 | [devnet](./devnets/devnet)            | `devnet`  | **Beta**         | `main`            | Daily devnet based of `osmosis/v15.x` branch |
 
@@ -19,22 +19,6 @@
 Testnets are a type of blockchain used exclusively for testing purposes. They function as a sandbox environment, allowing developers to test new code and functionalities without worrying about affecting the live blockchain (mainnet). They are persistent environments, meaning that they remain active for extended periods of time.
 
 Testnets come with a range of integrated services, including relayers to other testnets, frontends, explorers, and snapshot services. 
-
-### 🟪 osmo-test-4
-
-| Chain ID         | `osmo-test-4`                                                                   |
-|------------------|---------------------------------------------------------------------------------|
-| Osmosisd version | `v15.0.0-rc4`                                                                   |
-| Genesis          | <https://github.com/osmosis-labs/networks/raw/main/osmo-test-4/genesis.tar.bz2> |
-| RPC              | <https://rpc.testnet.osmosis.zone>                                              |
-| gRPC             | <https://grpc.testnet.osmosis.zone>                                             |
-| REST             | <https://lcd.testnet.osmosis.zone>                                              |
-| Faucet           | <https://faucet.osmosis.zone>                                                   |
-| Frontend         | ❌                                                                               |
-
-#### Join the testnet 
-
-Join the testnet following the instructions on the [osmo-test-4 page](./testnets/osmo-test-4/README.md).
 
 ### 🟪 osmo-test-5
 
@@ -53,6 +37,26 @@ Join the testnet following the instructions on the [osmo-test-4 page](./testnets
 #### 🧪 Join the testnet 
 
 Join the testnet following the instructions on the [osmo-test-5 page](./testnets/osmo-test-5/README.md).
+
+### 🟪 osmo-test-4 (⚠️ Deprecated)
+
+> ⚠️ **Deprecated** - This testnet is no longer active. Please use [osmo-test-5](./testnets/osmo-test-5) instead.
+>
+> It will be removed on June 15th, 2023.
+
+| Chain ID         | `osmo-test-4`                                                                   |
+|------------------|---------------------------------------------------------------------------------|
+| Osmosisd version | `v15.0.0-rc4`                                                                   |
+| Genesis          | <https://github.com/osmosis-labs/networks/raw/main/osmo-test-4/genesis.tar.bz2> |
+| RPC              | <https://rpc.testnet.osmosis.zone>                                              |
+| gRPC             | <https://grpc.testnet.osmosis.zone>                                             |
+| REST             | <https://lcd.testnet.osmosis.zone>                                              |
+| Faucet           | <https://faucet.osmosis.zone>                                                   |
+| Frontend         | ❌                                                                               |
+
+#### 🧪 Join the testnet
+
+Join the testnet following the instructions on the [osmo-test-4 page](./testnets/osmo-test-4/README.md).
 
 ## Devnets
 
