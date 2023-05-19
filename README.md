@@ -30,7 +30,7 @@ Testnets come with a range of integrated services, including relayers to other t
 | gRPC             | <https://grpc.testnet.osmosis.zone>                                             |
 | REST             | <https://lcd.testnet.osmosis.zone>                                              |
 | Faucet           | <https://faucet.osmosis.zone>                                                   |
-| Frontend         | <https://testnet.osmosis.zone>                                                  |
+| Frontend         | ❌                                                                               |
 
 #### Join the testnet 
 
@@ -48,7 +48,7 @@ Join the testnet following the instructions on the [osmo-test-4 page](./testnets
 | Faucet           | <https://faucet.osmotest5.osmosis.zone>              |
 | Explorer         | <https://explorer.osmotest5.osmosis.zone>            |
 | Snapshots        | <https://snapshots.osmotest5.osmosis.zone>           |
-| Frontend         | <https://app.osmotest5.osmosis.zone>  (WIP 🛠️)       |
+| Frontend         | <https://testnet.osmosis.zone>                       |
 
 #### 🧪 Join the testnet 
 
@@ -118,10 +118,10 @@ If you are an integrator needing additional testnet tokens for development or te
 
 **4) What are the differences between testnets and devnets?**
 
-| **Features** | **Testnets**             | **Devnets**                                       |
-|--------------|--------------------------|---------------------------------------------------|
+| **Features** | **Testnets**             | **Devnets**                                      |
+|--------------|--------------------------|--------------------------------------------------|
 | Persistent   | ✅                        | ❌ they are deleted and recreated every 24 hours. |
-| State        | Maintains its own state. | Forks of the mainnet, mimicking its state.         |
+| State        | Maintains its own state. | Forks of the mainnet, mimicking its state.       |
 | Faucet       | ✅                        | ✅                                                |
 | Explorer     | ✅                        | ❌                                                |
 | Frontend     | ✅                        | ❌                                                |
