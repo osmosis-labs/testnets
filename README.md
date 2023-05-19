@@ -104,7 +104,7 @@ Yes, the `osmo-test-4` testnet will be deprecated and eventually deleted in favo
 
 - During April, `osmo-test-4` will remain the official testnet while `osmo-test-5` will be in public beta.
 - During May, `osmo-test-4` will be deprecated (but not removed) and the official testnet will become `osmo-test-5`.
-- On June 1st, `osmo-test-4` will be deleted.
+- On June 15th, `osmo-test-4` will be deleted.
 
 If you're currently using `osmo-test-4`, we encourage you to migrate to `osmo-test-5` to ensure that your development and testing are not interrupted. If you have any questions or concerns about the transition, please don't hesitate to reach out on the `#testnet-discusion` channel on [Osmosis Discord](https://discord.com/channels/798583171548840026/888527640099688458).
 
