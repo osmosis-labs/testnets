@@ -58,7 +58,7 @@ These public endpoints are listed here solely for the purpose of simplifying dev
 | Axelar      | `axelar-testnet-lisbon-3` | <https://rpc-axelar-testnet.imperator.co:443>          | <https://lcd-axelar-testnet.imperator.co>           |
 | Akash       | `sandbox-01`              | <https://rpc.sandbox-01.aksh.pw:443>                   | <https://api.sandbox-01.aksh.pw/>                   |
 | Noble       | `grand-1`                 | <https://rpc.testnet.noble.strange.love:443>           | <https://api.testnet.noble.strange.love>            |
-| Quicksilver | `rhye-1`                  | <http://65.108.13.176:26657>                           | -                                                   |
+| Quicksilver | `rhye-1`                  | <https://rpc.test.quicksilver.zone:443>                | <https://lcd.test.quicksilver.zone>                 |
 
 ### 🇰 Add chains to keplr wallet 
 
