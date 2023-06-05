@@ -7,8 +7,8 @@
 | Chain ID         | `edgenet`                                                          |
 |------------------|--------------------------------------------------------------------|
 | Osmosisd version | `osmosis/main` branch                                              |
-| Genesis          | <https://osmosis-edgenet.sfo3.digitaloceanspaces.com/genesis.json> |
-| Starting Height  | <https://osmosis-edgenet.sfo3.digitaloceanspaces.com/height>       |
+| Genesis          | <https://osmosis.fra1.digitaloceanspaces.com/edgenet/genesis.json> |
+| Starting Height  | <https://osmosis.fra1.digitaloceanspaces.com/edgenet/height>       |
 
 ### 🟣 Public Nodes
 

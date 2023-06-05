@@ -11,8 +11,8 @@
 |---------------------------------------|-----------|------------------|-------------------|----------------------------------------------|
 | [osmo-test-5](./testnets/osmo-test-5) | `testnet` | **Active**       | `v15.1.0-testnet` | Current testnet                              |
 | [osmo-test-4](./testnets/osmo-test-4) | `testnet` | ⚠️ **Deprecated** | `v15.0.0-rc4`     | Previous testnet                             |
-| [edgenet](./devnets/edgenet)          | `devnet`  | **Beta**         | `v15.x`           | Daily devnet based of `osmosis/main` branch  |
-| [devnet](./devnets/devnet)            | `devnet`  | **Beta**         | `main`            | Daily devnet based of `osmosis/v15.x` branch |
+| [edgenet](./devnets/edgenet)          | `devnet`  | **Beta**         | `main`            | Daily devnet based of `osmosis/main` branch  |
+| [devnet](./devnets/devnet)            | `devnet`  | **Beta**         | `v15.x`           | Daily devnet based of `osmosis/v15.x` branch |
 
 ## Testnets
 

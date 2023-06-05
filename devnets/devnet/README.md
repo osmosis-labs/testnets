@@ -7,8 +7,8 @@
 | Chain ID         | `devnet`                                                          |
 |------------------|-------------------------------------------------------------------|
 | Osmosisd version | `osmosis/v15` branch                                              |
-| Genesis          | <https://osmosis-devnet.sfo3.digitaloceanspaces.com/genesis.json> |
-| Starting Height  | <https://osmosis-devnet.sfo3.digitaloceanspaces.com/height>       |
+| Genesis          | <https://osmosis.fra1.digitaloceanspaces.com/devnet/genesis.json> |
+| Starting Height  | <https://osmosis.fra1.digitaloceanspaces.com/devnet/height>       |
 
 ### 🟣 Public Nodes
 
