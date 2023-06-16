@@ -10,7 +10,6 @@
 | Chain ID                              | Type      | Status           | Version           | Notes                                        |
 |---------------------------------------|-----------|------------------|-------------------|----------------------------------------------|
 | [osmo-test-5](./testnets/osmo-test-5) | `testnet` | **Active**       | `v15.1.0-testnet` | Current testnet                              |
-| [osmo-test-4](./testnets/osmo-test-4) | `testnet` | ⚠️ **Deprecated** | `v15.0.0-rc4`     | Previous testnet                             |
 | [edgenet](./devnets/edgenet)          | `devnet`  | **Beta**         | `main`            | Daily devnet based of `osmosis/main` branch  |
 | [devnet](./devnets/devnet)            | `devnet`  | **Beta**         | `v15.x`           | Daily devnet based of `osmosis/v15.x` branch |
 
@@ -37,26 +36,6 @@ Testnets come with a range of integrated services, including relayers to other t
 #### 🧪 Join the testnet 
 
 Join the testnet following the instructions on the [osmo-test-5 page](./testnets/osmo-test-5/README.md).
-
-### 🟪 osmo-test-4 (⚠️ Deprecated)
-
-> ⚠️ **Deprecated** - This testnet is no longer active. Please use [osmo-test-5](./testnets/osmo-test-5) instead.
->
-> It will be removed on June 15th, 2023.
-
-| Chain ID         | `osmo-test-4`                                                                   |
-|------------------|---------------------------------------------------------------------------------|
-| Osmosisd version | `v15.0.0-rc4`                                                                   |
-| Genesis          | <https://github.com/osmosis-labs/networks/raw/main/osmo-test-4/genesis.tar.bz2> |
-| RPC              | <https://rpc.testnet.osmosis.zone>                                              |
-| gRPC             | <https://grpc.testnet.osmosis.zone>                                             |
-| REST             | <https://lcd.testnet.osmosis.zone>                                              |
-| Faucet           | <https://faucet.osmosis.zone>                                                   |
-| Frontend         | ❌                                                                               |
-
-#### 🧪 Join the testnet
-
-Join the testnet following the instructions on the [osmo-test-4 page](./testnets/osmo-test-4/README.md).
 
 ## Devnets
 
@@ -102,25 +81,15 @@ If you encounter any issues while joining the Osmosis network or have questions 
 
 ## 🙋‍♀️ FAQ
 
-**1) Will the `osmo-test-4` be deleted?**
-
-Yes, the `osmo-test-4` testnet will be deprecated and eventually deleted in favor of the `osmo-test-5` testnet. The transition will occur in stages to minimize disruption for users and integrators:
-
-- During April, `osmo-test-4` will remain the official testnet while `osmo-test-5` will be in public beta.
-- During May, `osmo-test-4` will be deprecated (but not removed) and the official testnet will become `osmo-test-5`.
-- On June 15th, `osmo-test-4` will be deleted.
-
-If you're currently using `osmo-test-4`, we encourage you to migrate to `osmo-test-5` to ensure that your development and testing are not interrupted. If you have any questions or concerns about the transition, please don't hesitate to reach out on the `#testnet-discusion` channel on [Osmosis Discord](https://discord.com/channels/798583171548840026/888527640099688458).
-
-**2) I need some funds on the `osmo-test-5` testnet, how can I get them?**
+**1) I need some funds on the `osmo-test-5` testnet, how can I get them?**
 
 You can request testnet tokens for the `osmo-test-5` testnet from the faucet available at <https://faucet.osmotest5.osmosis.zone>. Please note that the faucet currently dispenses up to 100 OSMO per day per address.
 
-**3) I am an integrator on the `osmo-test-5` testnet. How can I request more funds?**
+**2) I am an integrator on the `osmo-test-5` testnet. How can I request more funds?**
 
 If you are an integrator needing additional testnet tokens for development or testing purposes, you can request them via [this form](https://form-integrators.osmotest5.osmosis.zone). Please provide detailed information about your project and the number of tokens you require, and our team will review your request as soon as possible.
 
-**4) What are the differences between testnets and devnets?**
+**3) What are the differences between testnets and devnets?**
 
 | **Features** | **Testnets**             | **Devnets**                                      |
 |--------------|--------------------------|--------------------------------------------------|
@@ -130,3 +99,11 @@ If you are an integrator needing additional testnet tokens for development or te
 | Explorer     | ✅                        | ❌                                                |
 | Frontend     | ✅                        | ❌                                                |
 | Relayers     | ✅                        | ❌                                                |
+
+**4) Is the `osmo-test-4` deleted?**
+
+The `osmo-test-4` testnet was deprecated on Jun 16th 2023 in favor of the `osmo-test-5` testnet. It's still accessible at the following endpoints:
+
+- <https://rpc.osmotest4.osmosis.zone>
+- <https://lcd.osmotest4.osmosis.zone>
+- <https://faucet.osmotest4.osmosis.zone>
