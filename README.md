@@ -24,13 +24,13 @@ Testnets come with a range of integrated services, including relayers to other t
 | Chain ID         | `osmo-test-5`                                        |
 |------------------|------------------------------------------------------|
 | Osmosisd version | `v15.1.0-testnet`                                    |
-| Genesis          | <http://genesis.osmotest5.osmosis.zone/genesis.json> |
-| RPC              | <https://rpc.osmotest5.osmosis.zone>                 |
-| gRPC             | <https://grpc.osmotest5.osmosis.zone>                |
-| REST             | <https://lcd.osmotest5.osmosis.zone>                 |
-| Faucet           | <https://faucet.osmotest5.osmosis.zone>              |
-| Explorer         | <https://explorer.osmotest5.osmosis.zone>            |
-| Snapshots        | <https://snapshots.osmotest5.osmosis.zone>           |
+| Genesis          | <http://genesis.testnet.osmosis.zone/genesis.json> |
+| RPC              | <https://rpc.testnet.osmosis.zone>                 |
+| gRPC             | <https://grpc.testnet.osmosis.zone>                |
+| REST             | <https://lcd.testnet.osmosis.zone>                 |
+| Faucet           | <https://faucet.testnet.osmosis.zone>              |
+| Explorer         | <https://explorer.testnet.osmosis.zone>            |
+| Snapshots        | <https://snapshots.testnet.osmosis.zone>           |
 | Frontend         | <https://testnet.osmosis.zone>                       |
 
 #### 🧪 Join the testnet 
@@ -83,11 +83,11 @@ If you encounter any issues while joining the Osmosis network or have questions 
 
 **1) I need some funds on the `osmo-test-5` testnet, how can I get them?**
 
-You can request testnet tokens for the `osmo-test-5` testnet from the faucet available at <https://faucet.osmotest5.osmosis.zone>. Please note that the faucet currently dispenses up to 100 OSMO per day per address.
+You can request testnet tokens for the `osmo-test-5` testnet from the faucet available at <https://faucet.testnet.osmosis.zone>. Please note that the faucet currently dispenses up to 100 OSMO per day per address.
 
 **2) I am an integrator on the `osmo-test-5` testnet. How can I request more funds?**
 
-If you are an integrator needing additional testnet tokens for development or testing purposes, you can request them via [this form](https://form-integrators.osmotest5.osmosis.zone). Please provide detailed information about your project and the number of tokens you require, and our team will review your request as soon as possible.
+If you are an integrator needing additional testnet tokens for development or testing purposes, you can request them via [this form](https://form-integrators.testnet.osmosis.zone). Please provide detailed information about your project and the number of tokens you require, and our team will review your request as soon as possible.
 
 **3) What are the differences between testnets and devnets?**
 

@@ -12,11 +12,11 @@ OSMOSIS_HOME=$HOME/.osmosisd
 OSMOSIS_VERSION=15.1.0-testnet
 CHAIN_ID=osmo-test-5
 
-RPC_URL="https://rpc.osmotest5.osmosis.zone"
-RPC_SERVERS="https://rpc.osmotest5.osmosis.zone:443,https://rpc.osmotest5.osmosis.zone:443"
-SEEDS="$(curl -s -L https://snapshots.osmotest5.osmosis.zone/seeds)"
-ADDRBOOK_URL=https://addrbook.osmotest5.osmosis.zone/
-GENESIS_URL=https://genesis.osmotest5.osmosis.zone/genesis.json
+RPC_URL="https://rpc.testnet.osmosis.zone"
+RPC_SERVERS="https://rpc.testnet.osmosis.zone:443,https://rpc.testnet.osmosis.zone:443"
+SEEDS="$(curl -s -L https://snapshots.testnet.osmosis.zone/seeds)"
+ADDRBOOK_URL=https://addrbook.testnet.osmosis.zone/
+GENESIS_URL=https://genesis.testnet.osmosis.zone/genesis.json
 
 if uname -m | grep 64 | grep arm >/dev/null; then
     ARCH="arm64"

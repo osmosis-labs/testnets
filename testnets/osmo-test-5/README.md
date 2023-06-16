@@ -6,10 +6,10 @@
 |-------------------|--------------------------------------------------------------------|
 | Launch Date       | 6th Apr, 2023                                                      |
 | Osmosisd version  | `v15.1.0-testnet`                                                  |
-| Genesis           | <https://genesis.osmotest5.osmosis.zone/genesis.json>              |
+| Genesis           | <https://genesis.testnet.osmosis.zone/genesis.json>              |
 | Genesis SHA256SUM | `8f84b50c0ad65582c9c52126cd33443c9f2541436ea4c525106ed9b58f7c9ef9` |
 
-> Add `osmo-test-5` to keplr: <https://keplr.osmotest5.osmosis.zone/>
+> Add `osmo-test-5` to keplr: <https://keplr.testnet.osmosis.zone/>
 
 ## Endpoints
 
@@ -17,15 +17,15 @@ Summary of the `osmo-test-5` endpoints:
 
 | Service             | Url                                                                                                                                                                                                         |
 |---------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Landing             | <https://osmotest5.osmosis.zone>                                                                                                                                                                            |
-| Public RPC          | <https://rpc.osmotest5.osmosis.zone>                                                                                                                                                                        |
-| Public LCD          | <https://lcd.osmotest5.osmosis.zone>                                                                                                                                                                        |
-| Public gRPC         | <https://grpc.osmotest5.osmosis.zone>                                                                                                                                                                       |
+| Landing             | <https://landing.testnet.osmosis.zone>                                                                                                                                                                            |
+| Public RPC          | <https://rpc.testnet.osmosis.zone>                                                                                                                                                                        |
+| Public LCD          | <https://lcd.testnet.osmosis.zone>                                                                                                                                                                        |
+| Public gRPC         | <https://grpc.testnet.osmosis.zone>                                                                                                                                                                       |
 | Osmosis Seed Nodes  | `a5f81c035ff4f985d5e7c940c7c3b846389b7374@167.235.115.14:26656` <br/> `05c41cc1fc7c8cb379e54d784bcd3b3907a1568e@157.245.26.231:26656` <br/> `7c2b9e76be5c2142c76b429d9c29e902599ceb44@157.245.21.183:26656` |
 | External Seed Nodes | `f440c4980357d8b56db87ddd50f06bd551f1319a@5.78.98.19:26656` <br/> `ade4d8bc8cbe014af6ebdf3cb7b1e9ad36f412c0@testnet-seeds.polkachu.com:12556`                                                               |
-| Explorers           | <https://testnet.mintscan.io/osmosis-testnet/> <br/> <https://explorer.osmotest5.osmosis.zone>                                                                                                              |
-| Faucet              | <https://faucet.osmotest5.osmosis.zone>                                                                                                                                                                     |
-| Snapshots           | <https://snapshots.osmotest5.osmosis.zone>                                                                                                                                                                  |
+| Explorers           | <https://testnet.mintscan.io/osmosis-testnet/> <br/> <https://explorer.testnet.osmosis.zone>                                                                                                              |
+| Faucet              | <https://faucet.testnet.osmosis.zone>                                                                                                                                                                     |
+| Snapshots           | <https://snapshots.testnet.osmosis.zone>                                                                                                                                                                  |
 
 ### 📚 External Resources
  
@@ -42,9 +42,9 @@ If you want to be listed in this table, contribute by opening a PR and suggestin
 
 | Protocol | Url                                   |
 |----------|---------------------------------------|
-| RPC      | <https://rpc.osmotest5.osmosis.zone>  |
-| gRPC     | <https://grpc.osmotest5.osmosis.zone> |
-| REST     | <https://lcd.osmotest5.osmosis.zone>  |
+| RPC      | <https://rpc.testnet.osmosis.zone>  |
+| gRPC     | <https://grpc.testnet.osmosis.zone> |
+| REST     | <https://lcd.testnet.osmosis.zone>  |
 
 ### 🌱 Seed
 
@@ -69,18 +69,18 @@ seeds = "7c2b9e76be5c2142c76b429d9c29e902599ceb44@157.245.21.183:26656,05c41cc1f
 
 ### 🚰 Faucet
 
-The `osmo-test-5` testnet faucet is available at <https://faucet.osmotest5.osmosis.zone>
+The `osmo-test-5` testnet faucet is available at <https://faucet.testnet.osmosis.zone>
 
-If you are an integrator needing more funds, you can request them via [this form](https://form-integrators.osmotest5.osmosis.zone).
+If you are an integrator needing more funds, you can request them via [this form](https://form-integrators.testnet.osmosis.zone).
 
 ### 📷 Snapshots
 
-The `osmo-test-5` snapshots are available at <https://snapshots.osmotest5.osmosis.zone/>
+The `osmo-test-5` snapshots are available at <https://snapshots.testnet.osmosis.zone/>
 
 Get the latest snapshot:
 
 ```bash
-SNAPSHOT_URL=$(curl -sL https://snapshots.osmotest5.osmosis.zone/latest)
+SNAPSHOT_URL=$(curl -sL https://snapshots.testnet.osmosis.zone/latest)
 wget -q -O - $SNAPSHOT_URL | lz4 -d | tar -C $HOME/.osmosisd/ -xvf -
 ```
 
@@ -92,7 +92,7 @@ wget -q -O - $SNAPSHOT_URL | lz4 -d | tar -C $HOME/.osmosisd/ -xvf -
 
 ### 🗺️ Explorer
 
-The `osmo-test-5` testnet explorer is available at <https://explorer.osmotest5.osmosis.zone>
+The `osmo-test-5` testnet explorer is available at <https://explorer.testnet.osmosis.zone>
 
 ## Join the network
 
@@ -117,7 +117,7 @@ Make sure you have `jq`, `wget` and `curl` present in your machine.
 
 ```bash
 # Find out network version           
-RPC_ABCI_INFO=$(curl -s --retry 5 --retry-delay 5 --connect-timeout 30 -H "Accept: application/json" https://rpc.osmotest5.osmosis.zone/abci_info)
+RPC_ABCI_INFO=$(curl -s --retry 5 --retry-delay 5 --connect-timeout 30 -H "Accept: application/json" https://rpc.testnet.osmosis.zone/abci_info)
 NETWORK_VERSION=$(echo $RPC_ABCI_INFO | jq  -r '.result.response.version')
 
 # Download osmosisd binary
@@ -140,13 +140,13 @@ osmosisd init $MONIKER --chain-id osmo-test-5 --home $HOME/.osmosisd
 3. Download genesis 
 
 ```bash
-wget -q https://genesis.osmotest5.osmosis.zone/genesis.json -O $HOME/.osmosisd/config/genesis.json
+wget -q https://genesis.testnet.osmosis.zone/genesis.json -O $HOME/.osmosisd/config/genesis.json
 ```
 
 4. Download the latest snapshot:
 
 ```bash
-SNAPSHOT_URL=$(curl -sL https://snapshots.osmotest5.osmosis.zone/latest)
+SNAPSHOT_URL=$(curl -sL https://snapshots.testnet.osmosis.zone/latest)
 wget -q -O - $SNAPSHOT_URL | lz4 -d | tar -C $HOME/.osmosisd/ -xvf -
 ```
 
@@ -215,7 +215,7 @@ curl -s -L https://raw.githubusercontent.com/osmosis-labs/testnets/main/testnets
 
 ## Genesis and Network Parameters
 
-The testnet genesis can be found at <https://genesis.osmotest5.osmosis.zone/genesis.json>.
+The testnet genesis can be found at <https://genesis.testnet.osmosis.zone/genesis.json>.
 
 The following modifications were made to the app state parameters:
 

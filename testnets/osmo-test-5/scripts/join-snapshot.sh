@@ -18,11 +18,11 @@ OSMOSIS_HOME=$HOME/.osmosisd
 OSMOSIS_VERSION=15.1.0-testnet
 GOLANG_VERSION=1.19
 
-SEEDS="$(curl -s -L https://snapshots.osmotest5.osmosis.zone/seeds)"
-ADDRBOOK_URL=https://addrbook.osmotest5.osmosis.zone/
+SEEDS="$(curl -s -L https://snapshots.testnet.osmosis.zone/seeds)"
+ADDRBOOK_URL=https://addrbook.testnet.osmosis.zone/
 
 
-GENESIS_URL=https://genesis.osmotest5.osmosis.zone/genesis.json
+GENESIS_URL=https://genesis.testnet.osmosis.zone/genesis.json
 SNAPSHOT_URL=$(curl -s https://osmosis-snapshots-testnet.fra1.cdn.digitaloceanspaces.com/snapshots/latest)
 
 WAIT=10

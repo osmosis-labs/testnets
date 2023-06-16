@@ -34,7 +34,7 @@ When assets are transferred through IBC, they lose their base denomination (i.e 
 
 | Chain       | Chain ID                  | Faucet                                                                                  |
 |-------------|---------------------------|-----------------------------------------------------------------------------------------|
-| Osmosis     | `osmo-test-5`             | <https://faucet.osmotest5.osmosis.zone>                                                 |
+| Osmosis     | `osmo-test-5`             | <https://faucet.testnet.osmosis.zone>                                                 |
 | Cosmos-hub  | `thetha-testnet-001`      | [🚰・testnet-faucet](https://discord.com/channels/669268347736686612/953697793476821092) |
 | Juno        | `uni-6`                   | [🚰・testnet-faucet](https://discord.com/channels/816256689078403103/842073995059003422) |
 | Mars        | `ares-1`                  | <https://faucet.marsprotocol.io>                                                        |
@@ -51,7 +51,7 @@ These public endpoints are listed here solely for the purpose of simplifying dev
 
 | Chain       | Chain ID                  | RPC                                                    | REST                                                |
 |-------------|---------------------------|--------------------------------------------------------|-----------------------------------------------------|
-| Osmosis     | `osmo-test-5`             | <https://rpc.osmotest5.osmosis.zone:443>               | <https://lcd.osmotest5.osmosis.zone>                |
+| Osmosis     | `osmo-test-5`             | <https://rpc.testnet.osmosis.zone:443>               | <https://lcd.testnet.osmosis.zone>                |
 | Cosmos-hub  | `thetha-testnet-001`      | <https://rpc.sentry-01.theta-testnet.polypore.xyz:443> | <https://rest.sentry-01.theta-testnet.polypore.xyz> |
 | Juno        | `uni-6`                   | <https://uni-rpc.reece.sh:443>                         | <https://uni-api.reece.sh>                          |
 | Mars        | `ares-1`                  | <https://testnet-rpc.marsprotocol.io>                  | <https://testnet-rest.marsprotocol.io>              |
@@ -62,7 +62,7 @@ These public endpoints are listed here solely for the purpose of simplifying dev
 
 ### 🇰 Add chains to keplr wallet 
 
-You can add the osmo-test-5 chain to your Keplr wallet, as well as all other connected chains, at: https://keplr.osmotest5.osmosis.zone/
+You can add the osmo-test-5 chain to your Keplr wallet, as well as all other connected chains, at: https://keplr.testnet.osmosis.zone/
 
 ## 📚 Resources
 
