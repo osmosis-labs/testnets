@@ -49,7 +49,7 @@ Devnets are ephemeral, which means they are deleted and recreated every 24 hours
 |------------------|---------------------------------------------------------------------------|
 | Osmosisd version | `osmosis/main` branch                                                     |
 | Genesis          | <https://osmosis.fra1.digitaloceanspaces.com/edgenet/genesis.json>        |
-| Starting Height  | <https://osmosis.fra1.digitaloceanspaces.com/edgnet/height>              |
+| Starting Height  | <	https://osmosis.fra1.digitaloceanspaces.com/edgenet/height>              |
 | RPC              | <https://rpc.edgenet.osmosis.zone>                                        |
 | REST             | <https://lcd.edgenet.osmosis.zone>                                        |
 | gRPC             | `grpc.edgenet.osmosis.zone:30090`                                         |
