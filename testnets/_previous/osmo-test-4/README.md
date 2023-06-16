@@ -15,22 +15,22 @@ Summary of the `osmo-test-4` endpoints:
 
 | Service     | Url                                                                                                                                    |
 |-------------|----------------------------------------------------------------------------------------------------------------------------------------|
-| Public RPC  | <https://rpc.testnet.osmosis.zone>                                                                                                     |
-| Public LCD  | <https://grpc.testnet.osmosis.zone>                                                                                                    |
-| Public gRPC | <https://lcd.testnet.osmosis.zone>                                                                                                     |
+| Public RPC  | <https://rpc.osmotest4.osmosis.zone>                                                                                                   |
+| Public LCD  | <https://grpc.osmotest4.osmosis.zone>                                                                                                  |
+| Public gRPC | <https://lcd.osmotest4.osmosis.zone>                                                                                                   |
+| Faucet      | <https://facet.osmotest4.osmosis.zone>                                                                                                 |
 | Seed Node   | `0f9a9c694c46bd28ad9ad6126e923993fc6c56b1@137.184.181.105:26656`                                                                       |
 | Peers       | `4ab030b7fd75ed895c48bcc899b99c17a396736b@137.184.190.127:26656` <br/> `3dbffa30baab16cc8597df02945dcee0aa0a4581@143.198.139.33:26656` |
-| Explorer    | <https://testnet.mintscan.io/osmosis-testnet>                                                                                          |
-| Faucet      | <https://faucet.osmosis.zone>                                                                                                          |
-| Frontend    | <https://testnet.osmosis.zone>                                                                                                         |
+| Explorer    | N.A.   (was  <https://testnet.mintscan.io/osmosis-testnet>)                                                                            |
+| Frontend    | N.A.   (was <https://app.osmosis.zone>)                                                                                                |
 
 ### 🟣 Public Nodes
 
 | Protocol | Url                                 |
 |----------|-------------------------------------|
-| RPC      | <https://rpc.testnet.osmosis.zone>  |
-| gRPC     | <https://grpc.testnet.osmosis.zone> |
-| REST     | <https://lcd.testnet.osmosis.zone>  |
+| RPC      | <https://rpc.osmotest4.osmosis.zone>  |
+| gRPC     | <https://grpc.osmotest4.osmosis.zone> |
+| REST     | <https://lcd.osmotest4.osmosis.zone>  |
 
 ### 🌱 Seed
 
@@ -55,7 +55,7 @@ seeds = "0f9a9c694c46bd28ad9ad6126e923993fc6c56b1@137.184.181.105:26656"
 
 ### 🚰 Faucet
 
-The `osmo-test-4` testnet faucet is available at <https://faucet.osmosis.zone>
+The `osmo-test-4` testnet faucet is available at <https://faucet.osmotest4.osmosis.zone>
 
 
 ## Join the network
@@ -79,7 +79,7 @@ Make sure you have `jq`, `wget` and `curl` present in your machine.
 
 ```bash
 # Find out network version           
-RPC_ABCI_INFO=$(curl -s --retry 5 --retry-delay 5 --connect-timeout 30 -H "Accept: application/json" https://rpc.testnet.osmosis.zone/abci_info)
+RPC_ABCI_INFO=$(curl -s --retry 5 --retry-delay 5 --connect-timeout 30 -H "Accept: application/json" https://rpc.osmotest4.osmosis.zone/abci_info)
 NETWORK_VERSION=$(echo $RPC_ABCI_INFO | jq  -r '.result.response.version')
 
 # Download osmosisd binary
