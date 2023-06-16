@@ -48,8 +48,8 @@ Devnets are ephemeral, which means they are deleted and recreated every 24 hours
 | Chain ID         | `edgenet`                                                                 |
 |------------------|---------------------------------------------------------------------------|
 | Osmosisd version | `osmosis/main` branch                                                     |
-| Genesis          | <https://osmosis-edgenet.sfo3.digitaloceanspaces.com/genesis.json>        |
-| Starting Height  | <https://osmosis-edgenet.sfo3.digitaloceanspaces.com/height>              |
+| Genesis          | <https://osmosis.fra1.digitaloceanspaces.com/edgenet/genesis.json>        |
+| Starting Height  | <https://osmosis.fra1.digitaloceanspaces.com/edgnet/height>              |
 | RPC              | <https://rpc.edgenet.osmosis.zone>                                        |
 | REST             | <https://lcd.edgenet.osmosis.zone>                                        |
 | gRPC             | `grpc.edgenet.osmosis.zone:30090`                                         |
@@ -62,8 +62,8 @@ Devnets are ephemeral, which means they are deleted and recreated every 24 hours
 | Chain ID         | `devnet`                                                                 |
 |------------------|--------------------------------------------------------------------------|
 | Osmosisd version | `osmosis/v15.x` branch                                                   |
-| Genesis          | <https://osmosis-devnet.sfo3.digitaloceanspaces.com/genesis.json>        |
-| Starting Height  | <https://osmosis-devnet.sfo3.digitaloceanspaces.com/height>              |
+| Genesis          | <https://osmosis.fra1.digitaloceanspaces.com/devnet/genesis.json>        |
+| Starting Height  | <https://osmosis.fra1.digitaloceanspaces.com/devnet/height>              |
 | RPC              | <https://rpc.devnet.osmosis.zone>                                        |
 | REST             | <https://lcd.devnet.osmosis.zone>                                        |
 | gRPC             | `grpc.devnet.osmosis.zone:30090`                                         |
