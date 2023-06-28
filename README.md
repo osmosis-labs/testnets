@@ -10,7 +10,7 @@
 | Chain ID                              | Type      | Status           | Version           | Notes                                        |
 |---------------------------------------|-----------|------------------|-------------------|----------------------------------------------|
 | [osmo-test-5](./testnets/osmo-test-5) | `testnet` | **Active**       | `v15.1.0-testnet` | Current testnet                              |
-| [edgenet](./devnets/edgenet)          | `devnet`  | **Beta**         | `main`            | Daily devnet based of `osmosis/main` branch  |
+| [edgenet](./devnets/edgenet)          | `devnet`  | **Beta**         | `16.x`            | Daily devnet based of `osmosis/v16.x` branch  |
 | [devnet](./devnets/devnet)            | `devnet`  | **Beta**         | `v15.x`           | Daily devnet based of `osmosis/v15.x` branch |
 
 ## Testnets

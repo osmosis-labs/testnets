@@ -6,7 +6,7 @@
 
 | Chain ID         | `edgenet`                                                          |
 |------------------|--------------------------------------------------------------------|
-| Osmosisd version | `osmosis/main` branch                                              |
+| Osmosisd version | `osmosis/v16.x` branch                                            |
 | Genesis          | <https://osmosis.fra1.digitaloceanspaces.com/edgenet/genesis.json> |
 | Starting Height  | <https://osmosis.fra1.digitaloceanspaces.com/edgenet/height>       |
 
