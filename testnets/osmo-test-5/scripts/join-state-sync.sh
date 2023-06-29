@@ -15,7 +15,7 @@ CHAIN_ID=osmo-test-5
 RPC_URL="https://rpc.testnet.osmosis.zone"
 RPC_SERVERS="https://rpc.testnet.osmosis.zone:443,https://rpc.testnet.osmosis.zone:443"
 SEEDS="$(curl -s -L https://snapshots.testnet.osmosis.zone/seeds)"
-ADDRBOOK_URL=https://addrbook.testnet.osmosis.zone/
+ADDRBOOK_URL=https://rpc.testnet.osmosis.zone/addrbook
 GENESIS_URL=https://genesis.testnet.osmosis.zone/genesis.json
 
 if uname -m | grep 64 | grep arm >/dev/null; then

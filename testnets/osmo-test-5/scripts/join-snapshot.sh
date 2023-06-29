@@ -19,7 +19,7 @@ OSMOSIS_VERSION=15.1.0-testnet
 GOLANG_VERSION=1.19
 
 SEEDS="$(curl -s -L https://snapshots.testnet.osmosis.zone/seeds)"
-ADDRBOOK_URL=https://addrbook.testnet.osmosis.zone/
+ADDRBOOK_URL=https://rpc.testnet.osmosis.zone/addrbook
 
 
 GENESIS_URL=https://genesis.testnet.osmosis.zone/genesis.json
