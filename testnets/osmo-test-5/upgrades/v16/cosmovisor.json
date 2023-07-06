@@ -1,0 +1,6 @@
+{
+    "binaries": {
+        "linux/amd64": "https://osmosis.fra1.digitaloceanspaces.com/osmo-test-5/binaries/v16/osmosisd-16.0.0-rc2-testnet-linux-amd64?checksum=sha256:63fb24b5f7bd959e9302677e8e05e0a13412a993f80b363ce47e9893101df6eb",
+        "linux/arm64": "https://osmosis.fra1.digitaloceanspaces.com/osmo-test-5/binaries/v16/osmosisd-16.0.0-rc2-testnet-linux-arm64?checksum=sha256:82f16233f6682b9597253c07b1b721476fe8640b2ae6cab5ee213de380f5f046"
+    }
+}
