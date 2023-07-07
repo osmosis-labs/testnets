@@ -7,11 +7,11 @@
     <br>
 </div>
 
-| Chain ID                              | Type      | Status           | Version           | Notes                                        |
-|---------------------------------------|-----------|------------------|-------------------|----------------------------------------------|
-| [osmo-test-5](./testnets/osmo-test-5) | `testnet` | **Active**       | `v15.1.0-testnet` | Current testnet                              |
-| [edgenet](./devnets/edgenet)          | `devnet`  | **Beta**         | `16.x`            | Daily devnet based of `osmosis/v16.x` branch  |
-| [devnet](./devnets/devnet)            | `devnet`  | **Beta**         | `v15.x`           | Daily devnet based of `osmosis/v15.x` branch |
+| Chain ID                              | Type      | Status     | Version   | Notes                                        |
+|---------------------------------------|-----------|------------|-----------|----------------------------------------------|
+| [osmo-test-5](./testnets/osmo-test-5) | `testnet` | **Active** | `v15.2.0` | Current testnet                              |
+| [edgenet](./devnets/edgenet)          | `devnet`  | **Beta**   | `16.x`    | Daily devnet based of `osmosis/v16.x` branch |
+| [devnet](./devnets/devnet)            | `devnet`  | **Beta**   | `v15.x`   | Daily devnet based of `osmosis/v15.x` branch |
 
 ## Testnets
 
@@ -21,9 +21,9 @@ Testnets come with a range of integrated services, including relayers to other t
 
 ### 🟪 osmo-test-5
 
-| Chain ID         | `osmo-test-5`                                        |
-|------------------|------------------------------------------------------|
-| Osmosisd version | `v15.1.0-testnet`                                    |
+| Chain ID         | `osmo-test-5`                                      |
+|------------------|----------------------------------------------------|
+| Osmosisd version | `v15.2.0`                                          |
 | Genesis          | <http://genesis.testnet.osmosis.zone/genesis.json> |
 | RPC              | <https://rpc.testnet.osmosis.zone>                 |
 | gRPC             | <https://grpc.testnet.osmosis.zone>                |
@@ -31,7 +31,7 @@ Testnets come with a range of integrated services, including relayers to other t
 | Faucet           | <https://faucet.testnet.osmosis.zone>              |
 | Explorer         | <https://explorer.testnet.osmosis.zone>            |
 | Snapshots        | <https://snapshots.testnet.osmosis.zone>           |
-| Frontend         | <https://testnet.osmosis.zone>                       |
+| Frontend         | <https://testnet.osmosis.zone>                     |
 
 #### 🧪 Join the testnet 
 

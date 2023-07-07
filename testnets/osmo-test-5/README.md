@@ -5,7 +5,7 @@
 | Chain ID          | `osmo-test-5`                                                      |
 |-------------------|--------------------------------------------------------------------|
 | Launch Date       | 6th Apr, 2023                                                      |
-| Osmosisd version  | `v15.1.0-testnet`                                                  |
+| Osmosisd version  | `v15.2.0`                                                  |
 | Genesis           | <https://genesis.testnet.osmosis.zone/genesis.json>              |
 | Genesis SHA256SUM | `8f84b50c0ad65582c9c52126cd33443c9f2541436ea4c525106ed9b58f7c9ef9` |
 
@@ -21,11 +21,12 @@ Summary of the `osmo-test-5` endpoints:
 | Public RPC          | <https://rpc.testnet.osmosis.zone>                                                                                                                                                                        |
 | Public LCD          | <https://lcd.testnet.osmosis.zone>                                                                                                                                                                        |
 | Public gRPC         | <https://grpc.testnet.osmosis.zone>                                                                                                                                                                       |
-| Osmosis Seed Nodes  | `a5f81c035ff4f985d5e7c940c7c3b846389b7374@167.235.115.14:26656` <br/> `05c41cc1fc7c8cb379e54d784bcd3b3907a1568e@157.245.26.231:26656` <br/> `7c2b9e76be5c2142c76b429d9c29e902599ceb44@157.245.21.183:26656` |
+| Osmosis Seed Nodes  |  |
 | External Seed Nodes | `f440c4980357d8b56db87ddd50f06bd551f1319a@5.78.98.19:26656` <br/> `ade4d8bc8cbe014af6ebdf3cb7b1e9ad36f412c0@testnet-seeds.polkachu.com:12556`                                                               |
 | Explorers           | <https://testnet.mintscan.io/osmosis-testnet/> <br/> <https://explorer.testnet.osmosis.zone>                                                                                                              |
 | Faucet              | <https://faucet.testnet.osmosis.zone>                                                                                                                                                                     |
 | Snapshots           | <https://snapshots.testnet.osmosis.zone>                                                                                                                                                                  |
+| Addressbook           | <https://rpc.testnet.osmosis.zone/addrbook>                                                                                                                                                                  |
 
 ### 📚 External Resources
  
@@ -50,7 +51,7 @@ If you want to be listed in this table, contribute by opening a PR and suggestin
 
 | Node          | ID                                                                                                                                                                                                          |
 |---------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Osmosis Seed  | `a5f81c035ff4f985d5e7c940c7c3b846389b7374@167.235.115.14:26656` <br/> `05c41cc1fc7c8cb379e54d784bcd3b3907a1568e@157.245.26.231:26656` <br/> `7c2b9e76be5c2142c76b429d9c29e902599ceb44@157.245.21.183:26656` |
+| Osmosis Seed  | |
 | External Seed | `f440c4980357d8b56db87ddd50f06bd551f1319a@5.78.98.19:26656` <br/> `ade4d8bc8cbe014af6ebdf3cb7b1e9ad36f412c0@testnet-seeds.polkachu.com:12556`                                                               |
 
 Add the Node ID in your `p2p.seeds` section of you `config.toml`:
@@ -150,12 +151,12 @@ SNAPSHOT_URL=$(curl -sL https://snapshots.testnet.osmosis.zone/latest)
 wget -q -O - $SNAPSHOT_URL | lz4 -d | tar -C $HOME/.osmosisd/ -xvf -
 ```
 
-5. Set the seed node in the `config.toml`:
+5. Download the addressbook:
 
 ```bash
-SEED_NODE_ID="05c41cc1fc7c8cb379e54d784bcd3b3907a1568e@157.245.26.231:26656,7c2b9e76be5c2142c76b429d9c29e902599ceb44@157.245.21.183:26656"
-sed -i "s/^seeds = .*/seeds = \"$SEED_NODE_ID\"/" $HOME/.osmosisd/config/config.toml
+wget -q https://rpc.testnet.osmosis.zone/addrbook -O $HOME/.osmosisd/config/addrbook.json
 ```
+
 
 6. Start the node:
 
