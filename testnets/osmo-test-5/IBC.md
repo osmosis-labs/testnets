@@ -2,15 +2,15 @@
 
 ## 📺 IBC Channels
 
-| src-chain-id  | dst-chain-id              | src-channel  | dst-channel    | Note                |
-|---------------|---------------------------|--------------|----------------|---------------------|
-| `osmo-test-5` | `thetha-testnet-001`      | `channel-12` | `channel-2500` | Cosmos-Hub Testnet  |
-| `osmo-test-5` | `uni-6`                   | `channel-1`  | `channel-190`  | Juno Testnet        |
-| `osmo-test-5` | `ares-1`                  | `channel-24` | `channel-14`   | Mars Testnet        |
-| `osmo-test-5` | `axelar-testnet-lisbon-3` | `channel-3`  | `channel-227`  | Axelar testnet      |
-| `osmo-test-5` | `sandbox`                 | `channel-73` | `channel-1`    | Akash testnet       |
-| `osmo-test-5` | `grand-1`                 | `channel-6`  | `channel-6`    | Noble Testnet       |
-| `osmo-test-5` | `rhye-1`                  | `channel-13` | `channel-20`   | QuickSilver Testnet |
+| src-chain-id  | dst-chain-id              | src-channel   | dst-channel    | Note                |
+|---------------|---------------------------|---------------|----------------|---------------------|
+| `osmo-test-5` | `thetha-testnet-001`      | `channel-12`  | `channel-2500` | Cosmos-Hub Testnet  |
+| `osmo-test-5` | `uni-6`                   | `channel-1`   | `channel-190`  | Juno Testnet        |
+| `osmo-test-5` | `ares-1`                  | `channel-24`  | `channel-14`   | Mars Testnet        |
+| `osmo-test-5` | `axelar-testnet-lisbon-3` | `channel-3`   | `channel-227`  | Axelar testnet      |
+| `osmo-test-5` | `sandbox-01`              | `channel-899` | `channel-0`    | Akash testnet       |
+| `osmo-test-5` | `grand-1`                 | `channel-6`   | `channel-6`    | Noble Testnet       |
+| `osmo-test-5` | `rhye-1`                  | `channel-13`  | `channel-20`   | QuickSilver Testnet |
 
 ## 🫰 IBC Assets
 
@@ -38,8 +38,8 @@ When assets are transferred through IBC, they lose their base denomination (i.e 
 | Cosmos-hub  | `thetha-testnet-001`      | [🚰・testnet-faucet](https://discord.com/channels/669268347736686612/953697793476821092) |
 | Juno        | `uni-6`                   | [🚰・testnet-faucet](https://discord.com/channels/816256689078403103/842073995059003422) |
 | Mars        | `ares-1`                  | <https://faucet.marsprotocol.io>                                                        |
-| Axelar      | `axelar-testnet-lisbon-3` | <https://faucet.sandbox-01.aksh.pw/>                                                    |
-| Akash       | `sandbox`                 | <http://faucet.sandbox.ny.aksh.pw>                                                      |
+| Axelar      | `axelar-testnet-lisbon-3` |                                                     |
+| Akash       | `sandbox`                 | <https://faucet.sandbox-01.aksh.pw/>                                                      |
 | Noble       | `grand-1`                 | <http://faucet.testnet.noble.strange.love>                                              |
 | Quicksilver | `rhye-1`                  | <https://faucet.test.quicksilver.zone/>                                                 |
 
@@ -71,7 +71,7 @@ The resources in these page were gathered from the following sources:
 | Chain       | Chain ID                  | Source                                                                             |
 |-------------|---------------------------|------------------------------------------------------------------------------------|
 | Cosmos-hub  | `thetha-testnet-001`      | <https://github.com/cosmos/testnets/blob/master/public/README.md>                  |
-| Akash       | `sandbox`                 | <https://github.com/akash-network/net/tree/master/sandbox>                         |
+| Akash       | `sandbox-1`               | <https://github.com/akash-network/net/tree/master/sandbox>                         |
 | Juno        | `uni-6`                   | <https://github.com/CosmosContracts/testnets/tree/main/uni-6>                      |
 | Mars        | `ares-1`                  | <https://github.com/mars-protocol/networks/blob/main/ares-1>                       |
 | Axelar      | `axelar-testnet-lisbon-3` | <https://docs.axelar.dev/resources>                                                |
