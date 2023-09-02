@@ -15,15 +15,15 @@ if [ -z $MONIKER ]; then
 fi
 
 OSMOSIS_HOME=$HOME/.osmosisd
-OSMOSIS_VERSION=15.1.0-testnet
+OSMOSIS_VERSION=19.0.0-rc0
 GOLANG_VERSION=1.19
 
-SEEDS="$(curl -s -L https://snapshots.testnet.osmosis.zone/seeds)"
+
 ADDRBOOK_URL=https://rpc.testnet.osmosis.zone/addrbook
 
 
 GENESIS_URL=https://genesis.testnet.osmosis.zone/genesis.json
-SNAPSHOT_URL=$(curl -s https://osmosis-snapshots-testnet.fra1.cdn.digitaloceanspaces.com/snapshots/latest)
+SNAPSHOT_URL=$(curl -s https://osmosis.fra1.digitaloceanspaces.com/osmo-test-5/snapshots/latest)
 
 WAIT=10
 
@@ -111,8 +111,8 @@ printf "${GREEN}Starting node configuration ${CLEAN}\n"
 mkdir -p $OSMOSIS_HOME
 
 # Download the binary
-# sudo wget -q https://github.com/osmosis-labs/osmosis/releases/download/v$OSMOSIS_VERSION/osmosisd-$OSMOSIS_VERSION-linux-$ARCH -O /usr/local/bin/osmosisd
-sudo wget -q https://osmosis-snapshots-testnet.fra1.cdn.digitaloceanspaces.com/binaries/osmosisd-$OSMOSIS_VERSION-linux-$ARCH -O /usr/local/bin/osmosisd
+sudo wget -q https://github.com/osmosis-labs/osmosis/releases/download/v$OSMOSIS_VERSION/osmosisd-$OSMOSIS_VERSION-linux-$ARCH -O /usr/local/bin/osmosisd
+#sudo wget -q https://osmosis-snapshots-testnet.fra1.cdn.digitaloceanspaces.com/binaries/osmosisd-$OSMOSIS_VERSION-linux-$ARCH -O /usr/local/bin/osmosisd
 sudo chmod +x /usr/local/bin/osmosisd
 
 if [ "$INSTALLATION" == "cosmovisor" ]; then
@@ -178,7 +178,6 @@ fi
 
 osmosisd init $MONIKER > /dev/null 2>&1
 
-dasel put string -f $OSMOSIS_HOME/config/config.toml '.p2p.seeds' $SEEDS
 dasel put string -f $OSMOSIS_HOME/config/config.toml '.rpc.laddr' "tcp://0.0.0.0:26657"
 
 # Download genesis

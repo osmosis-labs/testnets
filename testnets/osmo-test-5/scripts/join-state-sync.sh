@@ -9,12 +9,12 @@ CLEAN='\033[0m'
 PACKAGES="tar jq sed wget curl"
 
 OSMOSIS_HOME=$HOME/.osmosisd
-OSMOSIS_VERSION=15.1.0-testnet
+OSMOSIS_VERSION=19.0.0-rc0
 CHAIN_ID=osmo-test-5
 
 RPC_URL="https://rpc.testnet.osmosis.zone"
 RPC_SERVERS="https://rpc.testnet.osmosis.zone:443,https://rpc.testnet.osmosis.zone:443"
-SEEDS="$(curl -s -L https://snapshots.testnet.osmosis.zone/seeds)"
+
 ADDRBOOK_URL=https://rpc.testnet.osmosis.zone/addrbook
 GENESIS_URL=https://genesis.testnet.osmosis.zone/genesis.json
 
@@ -80,7 +80,6 @@ dasel put int -f $OSMOSIS_HOME/config/config.toml '.statesync.trust_height' $BLO
 dasel put string -f $OSMOSIS_HOME/config/config.toml '.statesync.trust_hash' $TRUST_HASH
 dasel put string -f $OSMOSIS_HOME/config/config.toml '.statesync.rpc_servers' $RPC_SERVERS
 
-dasel put string -f $OSMOSIS_HOME/config/config.toml '.p2p.seeds' $SEEDS
 
 wget -q $ADDRBOOK_URL -O $OSMOSIS_HOME/config/addrbook.json
 

@@ -5,8 +5,8 @@
 | Chain ID          | `osmo-test-5`                                                      |
 |-------------------|--------------------------------------------------------------------|
 | Launch Date       | 6th Apr, 2023                                                      |
-| Osmosisd version  | `v18.0.0`                                                  |
-| Genesis           | <https://genesis.testnet.osmosis.zone/genesis.json>              |
+| Osmosisd version  | `v19.0.0-rc0`                                                      |
+| Genesis           | <https://genesis.testnet.osmosis.zone/genesis.json>                |
 | Genesis SHA256SUM | `8f84b50c0ad65582c9c52126cd33443c9f2541436ea4c525106ed9b58f7c9ef9` |
 
 > Add `osmo-test-5` to keplr: <https://keplr.testnet.osmosis.zone/>
