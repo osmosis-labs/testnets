@@ -6,7 +6,7 @@
 
 | Chain ID         | `devnet`                                                          |
 |------------------|-------------------------------------------------------------------|
-| Osmosisd version | `osmosis/v15.x` branch                                            |
+| Osmosisd version | `osmosis/v19.x` branch                                            |
 | Genesis          | <https://osmosis.fra1.digitaloceanspaces.com/devnet/genesis.json> |
 | Starting Height  | <https://osmosis.fra1.digitaloceanspaces.com/devnet/height>       |
 

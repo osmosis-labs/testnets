@@ -1,12 +1,13 @@
 # 🧪 edgenet
 
-> This page is a work in progress. Please check back later for more information.
+> This network is currently not running as v20.0.0 upgrade handler is not available
 
+<!-- 
 ## Details
 
 | Chain ID         | `edgenet`                                                          |
 |------------------|--------------------------------------------------------------------|
-| Osmosisd version | `v17.0.0`                                                          |
+| Osmosisd version |                                                                    |
 | Genesis          | <https://osmosis.fra1.digitaloceanspaces.com/edgenet/genesis.json> |
 | Starting Height  | <https://osmosis.fra1.digitaloceanspaces.com/edgenet/height>       |
 
@@ -30,4 +31,5 @@
 The `edgenet` testnet faucet is available at <https://faucet.edgenet.osmosis.zone>
 
 Given that this devnet is a state export, your mainnet funds would be available on the `edgenet` as testnet tokens.
-Please be extremely careful about explicitly checking the `chain-id` before signing any transactions.
+Please be extremely careful about explicitly checking the `chain-id` before signing any transactions. 
+-->

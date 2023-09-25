@@ -9,9 +9,9 @@
 
 | Chain ID                              | Type      | Status     | Version        | Notes                                          |
 |---------------------------------------|-----------|------------|----------------|------------------------------------------------|
-| [osmo-test-5](./testnets/osmo-test-5) | `testnet` | **Active** | `v17b-testnet` | Current testnet                                |
-| [edgenet](./devnets/edgenet)          | `devnet`  | **Beta**   | `v19.x`      | Daily devnet based of `osmosis/v19.x` branch |
-| [devnet](./devnets/devnet)            | `devnet`  | **Beta**   | `v18.x`        | Daily devnet based of `osmosis/v18.x` branch   |
+| [osmo-test-5](./testnets/osmo-test-5) | `testnet` | **Active** | `v19.0.0` | Testnet                                |
+| [devnet](./devnets/devnet)            | `devnet`  | **Beta**   | `v19.1.0`      | Devnet with mainnet state  |
+<!-- | [edgenet](./devnets/edgenet)            | `devnet`  | **Beta**   | `v18.x`        | Daily devnet based of `osmosis/v18.x` branch   | -->
 
 ## Testnets
 
@@ -23,7 +23,7 @@ Testnets come with a range of integrated services, including relayers to other t
 
 | Chain ID         | `osmo-test-5`                                      |
 |------------------|----------------------------------------------------|
-| Osmosisd version | `v17b-testnet`                                     |
+| Osmosisd version | `v19.0.0`                                          |
 | Genesis          | <http://genesis.testnet.osmosis.zone/genesis.json> |
 | RPC              | <https://rpc.testnet.osmosis.zone>                 |
 | gRPC             | <https://grpc.testnet.osmosis.zone>                |
@@ -43,6 +43,7 @@ Devnets, short for development networks, are also used for testing new functiona
 
 Devnets are ephemeral, which means they are deleted and recreated every 24 hours. This ensures that the testing environment closely mirrors the current state of the mainnet. Devnets are minimal environments, consisting only of a validator. Unlike testnets, devnets do not feature frontends or relayers to other testnets. 
 
+<!-- 
 ### 🟨 edgenet
 
 | Chain ID         | `edgenet`                                                                 |
@@ -55,13 +56,14 @@ Devnets are ephemeral, which means they are deleted and recreated every 24 hours
 | gRPC             | `grpc.edgenet.osmosis.zone:30090`                                         |
 | websocket        | `wss://rpc.edgenet.osmosis.zone:443/websocket`                            |
 | Faucet           | <https://faucet.edgenet.osmosis.zone>                                     |
-| Seed Node        | `ad717b5090f2c8370c023e7925eabe3cf73f3014@p2p.edgenet.osmosis.zone:30056` |
+| Seed Node        | `ad717b5090f2c8370c023e7925eabe3cf73f3014@p2p.edgenet.osmosis.zone:30056` | 
+-->
 
 ### 🟨 devnet
 
 | Chain ID         | `devnet`                                                                 |
 |------------------|--------------------------------------------------------------------------|
-| Osmosisd version | `osmosis/v15.x` branch                                                   |
+| Osmosisd version | `v19.1.0`                                                                |
 | Genesis          | <https://osmosis.fra1.digitaloceanspaces.com/devnet/genesis.json>        |
 | Starting Height  | <https://osmosis.fra1.digitaloceanspaces.com/devnet/height>              |
 | RPC              | <https://rpc.devnet.osmosis.zone>                                        |
