@@ -4,8 +4,8 @@
 |-----------------|--------------------------------------------------------------|
 | Chain-id        | `osmo-test-5`                                                |
 | Upgrade Version | `v20.0.0-rc0`                                                |
-| Upgrade Height  | 3160800                                                      |
-| Countdown       | <https://testnet.mintscan.io/osmosis-testnet/blocks/3160800> |
+| Upgrade Height  | 3197200                                                      |
+| Countdown       | <https://testnet.mintscan.io/osmosis-testnet/blocks/3197200> |
 
 ## Memory Requirements
 
@@ -107,7 +107,7 @@ Now, at the upgrade height, Cosmovisor will upgrade to the v20 binary
 
 ## Manual Option
 
-1. Wait for Osmosis to reach the upgrade height (3160800)
+1. Wait for Osmosis to reach the upgrade height (3197200)
 
 2. Look for a panic message, followed by endless peer logs. Stop the daemon
 
