@@ -101,11 +101,3 @@ If you are an integrator needing additional testnet tokens for development or te
 | Explorer     | ✅                        | ❌                                                |
 | Frontend     | ✅                        | ❌                                                |
 | Relayers     | ✅                        | ❌                                                |
-
-**4) Is the `osmo-test-4` deleted?**
-
-The `osmo-test-4` testnet was deprecated on Jun 16th 2023 in favor of the `osmo-test-5` testnet. It's still accessible at the following endpoints:
-
-- <https://rpc.osmotest4.osmosis.zone>
-- <https://lcd.osmotest4.osmosis.zone>
-- <https://faucet.osmotest4.osmosis.zone>
