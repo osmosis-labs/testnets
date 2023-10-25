@@ -4,11 +4,11 @@
 
 ## Details
 
-| Chain ID         | `devnet`                                                          |
-|------------------|-------------------------------------------------------------------|
-| Osmosisd version | `osmosis/v19.x` branch                                            |
-| Genesis          | <https://osmosis.fra1.digitaloceanspaces.com/devnet/genesis.json> |
-| Starting Height  | <https://osmosis.fra1.digitaloceanspaces.com/devnet/height>       |
+| Chain ID         | `devnet`                                                              |
+|------------------|-----------------------------------------------------------------------|
+| Osmosisd version | `v20.1.0`                                                             |
+| Genesis          | <https://osmosis-dev.fra1.digitaloceanspaces.com/devnet/genesis.json> |
+| Starting Height  | <https://osmosis-dev.fra1.digitaloceanspaces.com/devnet/height>       |
 
 ### 🟣 Public Nodes
 
