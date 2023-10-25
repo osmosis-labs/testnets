@@ -3,7 +3,7 @@
 |                 |                                                              |
 |-----------------|--------------------------------------------------------------|
 | Chain-id        | `osmo-test-5`                                                |
-| Upgrade Version | `v20.0.0-rc0`                                                |
+| Upgrade Version | `v20.1.0-testnet`                                                |
 | Upgrade Height  | 3197200                                                      |
 | Countdown       | <https://testnet.mintscan.io/osmosis-testnet/blocks/3197200> |
 
@@ -98,7 +98,7 @@ Create the v20 folder, make the build, and copy the daemon over to that folder
 mkdir -p ~/.osmosisd/cosmovisor/upgrades/v20/bin
 cd $HOME/osmosis
 git pull
-git checkout v20.0.0-rc0
+git checkout v20.1.0-testnet
 make build
 cp build/osmosisd ~/.osmosisd/cosmovisor/upgrades/v20/bin
 ```
@@ -116,7 +116,7 @@ Now, at the upgrade height, Cosmovisor will upgrade to the v20 binary
 ```{.sh}
 cd $HOME/osmosis
 git pull
-git checkout v20.0.0-rc0
+git checkout v20.1.0-testnet
 make install
 ```
 
