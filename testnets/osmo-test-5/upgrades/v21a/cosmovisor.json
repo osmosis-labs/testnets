@@ -1,0 +1,6 @@
+{
+  "binaries": {
+      "linux/arm64": "https://github.com/osmosis-labs/osmosis/releases/download/v21.0.0-a-rc4-testnet/osmosisd-21.0.0-a-rc4-testnet-linux-arm64?checksum=sha256:7f79cf197ba6db6b36dab9e583bf296044e8421aab55de11f2cfc89c1c55b733",
+      "linux/amd64": "https://github.com/osmosis-labs/osmosis/releases/download/v21.0.0-a-rc4-testnet/osmosisd-21.0.0-a-rc4-testnet-linux-amd64?checksum=sha256:2d187782f3fc36a6cf2d29352d7ce4fec6b4090c11314ae5f23a3f76d9118ee0"
+  }
+}
