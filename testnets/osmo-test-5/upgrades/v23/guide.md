@@ -95,7 +95,7 @@ source ~/.profile
 Create the v23 folder, make the build, and copy the daemon over to that folder
 
 ```{.sh}
-mkdir -p ~/.osmosisd/cosmovisor/upgrades/v22/bin
+mkdir -p ~/.osmosisd/cosmovisor/upgrades/v23/bin
 cd $HOME/osmosis
 git pull
 git checkout v23.0.0-rc1
