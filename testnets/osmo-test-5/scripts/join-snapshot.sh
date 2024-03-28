@@ -15,7 +15,7 @@ if [ -z $MONIKER ]; then
 fi
 
 OSMOSIS_HOME=$HOME/.osmosisd
-OSMOSIS_VERSION=21.0.0-a-rc4-testnet
+OSMOSIS_VERSION=23.0.8
 GOLANG_VERSION=1.20
 
 
