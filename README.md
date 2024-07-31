@@ -9,7 +9,7 @@
 
 | Chain ID                              | Type      | Status     | Version       | Notes                     |
 |---------------------------------------|-----------|------------|---------------|---------------------------|
-| [osmo-test-5](./testnets/osmo-test-5) | `testnet` | **Active** | `v25.0.0-rc0` | Testnet                   |
+| [osmo-test-5](./testnets/osmo-test-5) | `testnet` | **Active** | `v25.2.1` | Testnet                   |
 | [devnet](./devnets/devnet)            | `devnet`  | **Beta**   | `v19.1.0`     | Devnet with mainnet state |
 <!-- | [edgenet](./devnets/edgenet)            | `devnet`  | **Beta**   | `v18.x`        | Daily devnet based of `osmosis/v18.x` branch   | -->
 
@@ -23,7 +23,7 @@ Testnets come with a range of integrated services, including relayers to other t
 
 | Chain ID         | `osmo-test-5`                                      |
 |------------------|----------------------------------------------------|
-| Osmosisd version | `v25.0.0-rc0`                                      |
+| Osmosisd version | `v25.2.1`                                      |
 | Genesis          | <http://genesis.testnet.osmosis.zone/genesis.json> |
 | RPC              | <https://rpc.testnet.osmosis.zone>                 |
 | gRPC             | <https://grpc.testnet.osmosis.zone>                |
