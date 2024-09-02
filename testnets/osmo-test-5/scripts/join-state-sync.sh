@@ -9,7 +9,7 @@ CLEAN='\033[0m'
 PACKAGES="tar jq sed wget curl"
 
 OSMOSIS_HOME=$HOME/.osmosisd
-OSMOSIS_VERSION=25.2.1
+OSMOSIS_VERSION=26.0.0-rc3
 CHAIN_ID=osmo-test-5
 
 RPC_URL="https://rpc.testnet.osmosis.zone"
