@@ -98,7 +98,7 @@ Create the v26 folder, make the build, and copy the daemon over to that folder
 mkdir -p ~/.osmosisd/cosmovisor/upgrades/v26/bin
 cd $HOME/osmosis
 git pull
-git checkout v26.0.0-rc0
+git checkout v26.0.0-rc3
 make build
 cp build/osmosisd ~/.osmosisd/cosmovisor/upgrades/v26/bin
 ```
