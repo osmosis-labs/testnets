@@ -1,0 +1,6 @@
+{
+  "binaries": {
+      "linux/arm64": "https://github.com/osmosis-labs/osmosis/releases/download/v27.0.0-rc1/osmosisd-27.0.0-rc1-linux-arm64?checksum=sha256:a4707c87778b187a56a3b15e982421f14c0de1c65034f0d5d452530912c37b86",
+      "linux/amd64": "https://github.com/osmosis-labs/osmosis/releases/download/v27.0.0-rc1/osmosisd-27.0.0-rc1-linux-amd64?checksum=sha256:31d0d5d9e79527e35eb5e6c0781908e067b46f23ddb33f50815c2ed289d98dc9"
+  }
+}
