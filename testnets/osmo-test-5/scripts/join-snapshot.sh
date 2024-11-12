@@ -15,8 +15,8 @@ if [ -z $MONIKER ]; then
 fi
 
 OSMOSIS_HOME=$HOME/.osmosisd
-OSMOSIS_VERSION=26.0.0-rc3
-GOLANG_VERSION=1.21
+OSMOSIS_VERSION=27.0.0-rc1
+GOLANG_VERSION=1.23
 
 
 ADDRBOOK_URL=https://rpc.testnet.osmosis.zone/addrbook
